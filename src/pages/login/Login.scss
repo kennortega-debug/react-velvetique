@@ -1,0 +1,245 @@
+.login-page {
+  .register {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background: url("/src/assets/images/login.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .login-header {
+    p {
+      margin-bottom: unset;
+    }
+    color: #b06775;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: 70px;
+    margin-left: 200px;
+  }
+
+  .login-header h3 {
+    font-weight: 200;
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
+
+  .login-header h2 {
+    margin: 20px 15px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 0.5px solid #b06775;
+    padding-bottom: 20px;
+    color: rgb(97, 96, 96);
+  }
+
+  .login-header h4 {
+    display: inline;
+    font-weight: 100;
+    font-size: 20px;
+    border-bottom: #b06775 solid 1px;
+    padding-bottom: 35px;
+  }
+
+  .login-header p {
+    color: rgb(109, 80, 80);
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+
+  .login-header :nth-child(4) {
+    padding-top: 65px;
+  }
+
+  .box-login {
+    padding: 35px;
+    color: #b06775;
+    margin: 40px;
+    height: 90%;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(17, 16, 16, 0.15);
+  }
+
+  .register-form label {
+    font-size: 15px;
+  }
+
+  .box-login h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #b06775;
+    padding: 12px 0px;
+    border-bottom: #b06775 solid 1px;
+    text-align: center;
+  }
+
+  .box-login p {
+    text-align: center;
+    letter-spacing: normal;
+    margin-top: 20px;
+  }
+
+  .register-form p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .i-input {
+    position: relative;
+  }
+
+  .i-input i {
+    position: absolute;
+    color: gray;
+    left: 5px;
+    top: 50%;
+    font-size: 20px;
+    transform: translateY(-50%);
+  }
+
+  .i-input input {
+    width: 100%;
+    padding-left: 35px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .campo {
+    margin-top: 20px;
+  }
+
+  .field-hint {
+    display: block;
+    margin-top: 4px;
+    color: #6e6666;
+    font-size: 12px;
+  }
+
+  .terms {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .check {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .check p {
+    padding-top: 2px;
+  }
+
+  .campo input {
+    background-color: #ffffff;
+    color: black;
+  }
+
+  .terms input[type="checkbox"] {
+    accent-color: #b06775;
+    position: relative;
+    top: 14px;
+    background: white !important;
+  }
+
+  .terms p {
+    text-align: start;
+    margin: 30px 5px 0px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(95, 92, 92);
+  }
+
+  a:hover {
+    border-bottom: #b06775 solid 2px;
+  }
+
+  button {
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #b06775;
+    padding: 10px 40px;
+    margin: 30px 0px 0px 5px;
+  }
+
+  span {
+    display: block;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .register {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 30px;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .login-header {
+      width: 100%;
+      margin: auto;
+    }
+
+    .login-header h3 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .login-header h2 {
+      text-align: center;
+    }
+
+    .login-header h4 {
+      font-size: 18px;
+      margin-right: 100px;
+    }
+
+    .login-header :nth-child(4) {
+      padding-top: 25px;
+    }
+
+    .login-header p {
+      font-size: 14px;
+      text-align: start;
+      margin-right: 40px;
+    }
+
+    .box-login {
+      width: 100%;
+      max-width: 500px;
+      min-height: auto;
+      padding: 25px 20px;
+      margin: 0;
+    }
+
+    .box-login h2 {
+      font-size: 24px;
+    }
+
+    .register-form p {
+      font-size: 17px;
+    }
+
+    .terms {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+}
