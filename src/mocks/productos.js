@@ -1,89 +1,89 @@
 /* Productos - Skin Care */
-import SkinCT from "../assets/skincare/anuaSerum/Principal.webp";
-import AnuaSecond from "../assets/skincare/anuaserum/Secundaria.webp";
-import AnuaTercia from "../assets/skincare/anuaserum/Terciaria.webp";
+import SkinCT from "../assets/SkinCare/AnuaSerum/Principal.webp";
+import AnuaSecond from "../assets/SkinCare/AnuaSerum/Secundaria.webp";
+import AnuaTercia from "../assets/SkinCare/AnuaSerum/Terciaria.webp";
 
-import pdrnSerum from "../assets/skincare/pdrnserum/Principal.jpg";
-import pdrnSecond from "../assets/skincare/pdrnserum/Secundaria.webp";
-import pdrnTercia from "../assets/skincare/pdrnserum/Terciaria.webp";
+import pdrnSerum from "../assets/SkinCare/PDRNserum/Principal.jpg";
+import pdrnSecond from "../assets/SkinCare/PDRNserum/Secundaria.webp";
+import pdrnTercia from "../assets/SkinCare/PDRNserum/Terciaria.webp";
 
-import LacticAcid from "../assets/skincare/lacticacid/Principal.jpg";
-import LacticSecond from "../assets/skincare/lacticacid/Secundaria.webp";
-import LacticTercia from "../assets/skincare/lacticacid/Terciaria.webp";
+import LacticAcid from "../assets/SkinCare/LacticAcid/Principal.jpg";
+import LacticSecond from "../assets/SkinCare/LacticAcid/Secundaria.webp";
+import LacticTercia from "../assets/SkinCare/LacticAcid/Terciaria.webp";
 
-import GelMoisturizer from "../assets/skincare/gelmoisturizer/Principal.jpg";
-import GelSecond from "../assets/skincare/gelmoisturizer/Secundaria.webp";
-import GelTercia from "../assets/skincare/gelmoisturizer/Terciaria.webp";
+import GelMoisturizer from "../assets/SkinCare/GelMoisturizer/Principal.jpg";
+import GelSecond from "../assets/SkinCare/GelMoisturizer/Secundaria.webp";
+import GelTercia from "../assets/SkinCare/GelMoisturizer/Terciaria.webp";
 
-import GlowSerum from "../assets/skincare/serumforradiant/Principal.webp";
-import GlowSecond from "../assets/skincare/serumforradiant/Secundaria.webp";
-import GlowTercia from "../assets/skincare/serumforradiant/Terciaria.webp";
+import GlowSerum from "../assets/SkinCare/SerumForRadiant/Principal.webp";
+import GlowSecond from "../assets/SkinCare/SerumForRadiant/Secundaria.webp";
+import GlowTercia from "../assets/SkinCare/SerumForRadiant/Terciaria.webp";
 
-import Moisturizer from "../assets/skincare/moisturizer/Principal.webp";
-import MoisSecond from "../assets/skincare/moisturizer/Secundaria.jpeg";
-import MoisTercia from "../assets/skincare/moisturizer/Terciaria.jpeg";
+import Moisturizer from "../assets/SkinCare/Moisturizer/Principal.webp";
+import MoisSecond from "../assets/SkinCare/Moisturizer/Secundaria.jpeg";
+import MoisTercia from "../assets/SkinCare/Moisturizer/Terciaria.jpeg";
 
-import RealComplexion from "../assets/skincare/realcomplexionhyaluron/Principal.webp";
-import RealSecond from "../assets/skincare/realcomplexionhyaluron/Secundaria.webp";
-import RealTercia from "../assets/skincare/realcomplexionhyaluron/Terciaria.webp";
+import RealComplexion from "../assets/SkinCare/RealComplexionHyaluron/Principal.webp";
+import RealSecond from "../assets/SkinCare/RealComplexionHyaluron/Secundaria.webp";
+import RealTercia from "../assets/SkinCare/RealComplexionHyaluron/Terciaria.webp";
 
-import SetStep from "../assets/skincare/set3-step/Principal.webp";
-import SetSecond from "../assets/skincare/set3-step/Secundaria.webp";
-import SetTercia from "../assets/skincare/set3-step/Terciaria.avif";
+import SetStep from "../assets/SkinCare/Set3-Step/Principal.webp";
+import SetSecond from "../assets/SkinCare/Set3-Step/Secundaria.webp";
+import SetTercia from "../assets/SkinCare/Set3-Step/Terciaria.avif";
 
 /* Productos - Make up */
-import MultiStick from "../assets/makeup/multistick/Principal.jpg";
-import MultiSecond from "../assets/makeup/multistick/Secundaria.jpg";
-import MultiTercia from "../assets/makeup/multistick/Terciaria.jpeg";
+import MultiStick from "../assets/MakeUp/multistick/Principal.jpg";
+import MultiSecond from "../assets/MakeUp/multistick/Secundaria.jpg";
+import MultiTercia from "../assets/MakeUp/multistick/Terciaria.jpeg";
 
-import MatteLips from "../assets/makeup/mattelips/Principal.jpg";
-import MatteTercia from "../assets/makeup/mattelips/Terciaria.webp";
+import MatteLips from "../assets/MakeUp/MatteLips/Principal.jpg";
+import MatteTercia from "../assets/MakeUp/MatteLips/Terciaria.webp";
 
-import BroncePowder from "../assets/makeup/broncepowder/Principal.jpg";
-import BronceSecond from "../assets/makeup/broncepowder/Secundaria.webp";
-import BronceTercia from "../assets/makeup/broncepowder/Terciaria.webp";
+import BroncePowder from "../assets/MakeUp/BroncePowder/Principal.jpg";
+import BronceSecond from "../assets/MakeUp/BroncePowder/Secundaria.webp";
+import BronceTercia from "../assets/MakeUp/BroncePowder/Terciaria.webp";
 
-import GlowPlay from "../assets/makeup/glowplay/Principal.jpg";
-import GlowPlaySecond from "../assets/makeup/glowplay/Secundaria.webp";
-import GlowPlayTercia from "../assets/makeup/glowplay/Terciaria.webp";
+import GlowPlay from "../assets/MakeUp/GlowPlay/Principal.jpg";
+import GlowPlaySecond from "../assets/MakeUp/GlowPlay/Secundaria.webp";
+import GlowPlayTercia from "../assets/MakeUp/GlowPlay/Terciaria.webp";
 
-import HighLigth from "../assets/makeup/higthlight/Principal.jpg";
-import HightSecond from "../assets/makeup/higthlight/Secundaria.avif";
-import HightTercia from "../assets/makeup/higthlight/Terciaria.avif";
+import HighLigth from "../assets/MakeUp/HigthLight/Principal.jpg";
+import HightSecond from "../assets/MakeUp/HigthLight/Secundaria.avif";
+import HightTercia from "../assets/MakeUp/HigthLight/Terciaria.avif";
 
-import PowderKiss from "../assets/makeup/powderkiss/Principal.jpg";
-import PowerSecond from "../assets/makeup/powderkiss/Secundaria.webp";
-import PowerTercia from "../assets/makeup/powderkiss/Terciaria.webp";
+import PowderKiss from "../assets/MakeUp/PowderKiss/Principal.jpg";
+import PowerSecond from "../assets/MakeUp/PowderKiss/Secundaria.webp";
+import PowerTercia from "../assets/MakeUp/PowderKiss/Terciaria.webp";
 
 /* Productos - Hair Care */
-import KitWella from "../assets/haircare/kitwella/Principal.jpg";
-import KitSecond from "../assets/haircare/kitwella/Secundaria.webp";
-import KitTercia from "../assets/haircare/kitwella/Terciaria.webp";
+import KitWella from "../assets/HairCare/KitWella/Principal.jpg";
+import KitSecond from "../assets/HairCare/KitWella/Secundaria.webp";
+import KitTercia from "../assets/HairCare/KitWella/Terciaria.webp";
 
-import Ultimate from "../assets/haircare/ultimate/Principal.jpg";
-import UltimateSecond from "../assets/haircare/ultimate/Secundaria.webp";
-import UltimateTercia from "../assets/haircare/ultimate/Terciaria.webp";
+import Ultimate from "../assets/HairCare/Ultimate/Principal.jpg";
+import UltimateSecond from "../assets/HairCare/Ultimate/Secundaria.webp";
+import UltimateTercia from "../assets/HairCare/Ultimate/Terciaria.webp";
 
-import ColorMotion from "../assets/haircare/colormotion/Principal.jpg";
-import ColorSecond from "../assets/haircare/colormotion/Secundaria.png";
-import ColorTercia from "../assets/haircare/colormotion/Terciaria.png";
+import ColorMotion from "../assets/HairCare/ColorMotion/Principal.jpg";
+import ColorSecond from "../assets/HairCare/ColorMotion/Secundaria.png";
+import ColorTercia from "../assets/HairCare/ColorMotion/Terciaria.png";
 
-import OilReflection from "../assets/haircare/oilreflection/Principal.jpg";
-import OilSecond from "../assets/haircare/oilreflection/Secundaria.webp";
-import OilTercia from "../assets/haircare/oilreflection/Terciaria.webp";
+import OilReflection from "../assets/HairCare/OilReflection/Principal.jpg";
+import OilSecond from "../assets/HairCare/OilReflection/Secundaria.webp";
+import OilTercia from "../assets/HairCare/OilReflection/Terciaria.webp";
 
 /* Productos - Sun Care */
-import SunProtection from "../assets/suncare/sunprotection/Principal.jpg";
-import SunSecond from "../assets/suncare/sunprotection/Secundaria.webp";
-import SunTercia from "../assets/suncare/sunprotection/Terciaria.webp";
+import SunProtection from "../assets/SunCare/SunProtection/Principal.jpg";
+import SunSecond from "../assets/SunCare/SunProtection/Secundaria.webp";
+import SunTercia from "../assets/SunCare/SunProtection/Terciaria.webp";
 
-import Anthelios from "../assets/suncare/anthelios/Principal.jpg";
-import AntheSecond from "../assets/suncare/anthelios/Secundaria.png";
-import AntheTercia from "../assets/suncare/anthelios/Terciaria.png";
+import Anthelios from "../assets/SunCare/Anthelios/Principal.jpg";
+import AntheSecond from "../assets/SunCare/Anthelios/Secundaria.png";
+import AntheTercia from "../assets/SunCare/Anthelios/Terciaria.png";
 
-import VitaminaC from "../assets/suncare/vitaminac/Principal.jpg";
-import VitaminSecond from "../assets/suncare/vitaminac/Secundaria.avif";
-import VitaminTercia from "../assets/suncare/vitaminac/Terciaria.avif";
+import VitaminaC from "../assets/SunCare/VitaminaC/Principal.jpg";
+import VitaminSecond from "../assets/SunCare/VitaminaC/Secundaria.avif";
+import VitaminTercia from "../assets/SunCare/VitaminaC/Terciaria.avif";
 
 
 export const TodosLosProductos = [

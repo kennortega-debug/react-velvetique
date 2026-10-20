@@ -1,7 +1,7 @@
-import RealHyaluron from "../assets/skincare/realComplexionHyaluron/Principal.webp";
-import LacticAcid from "../assets/skincare/lacticAcid/Principal.jpg";
-import pdrnSerum from "../assets/skincare/pdrnserum/Principal.jpg";
-import GelMoisturizer from "../assets/skincare/gelMoisturizer/Principal.jpg";
+import RealHyaluron from "../assets/SkinCare/RealComplexionHyaluron/Principal.webp";
+import LacticAcid from "../assets/SkinCare/LacticAcid/Principal.jpg";
+import pdrnSerum from "../assets/SkinCare/PDRNserum/Principal.jpg";
+import GelMoisturizer from "../assets/SkinCare/GelMoisturizer/Principal.jpg";
 
 export const mockProductos = [
     {
