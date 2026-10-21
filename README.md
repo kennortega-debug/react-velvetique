@@ -1,5 +1,6 @@
 # React + Vite + Vercel
 Integrantes: kenny ortega, Ignacia colinir y Shanaya ceneus
+
 usuario: admin@duoc.cl
 contraseña: Admin123!
 
