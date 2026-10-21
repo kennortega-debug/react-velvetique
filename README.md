@@ -1,4 +1,7 @@
-# React + Vite
+# React + Vite + Vercel
+Integrantes: kenny ortega, Ignacia colinir y Shanaya ceneus
+usuario: admin@duoc.cl
+contraseña: Admin123!
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
