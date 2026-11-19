@@ -21,10 +21,19 @@ const Register = () => {
       console.log("deben ser igual.");
     } else {
       usuariosMock.push({
-        nombre,
+        id: `u-${Date.now()}`,
+        run: "",
+        name: nombre,
+        lastname: "",
         email,
-        contrasenia1,
+        password: contrasenia1,
+        birthdate: "",
+        role: "Cliente",
+        region: "",
+        commune: "",
+        address: "",
       });
+      console.log(usuariosMock);
       navigate("/shop");
     }
   };

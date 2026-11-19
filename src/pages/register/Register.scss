@@ -93,17 +93,26 @@
     font-size: 25px;
     color: gray;
     left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 30;
   }
 
   .i-input input {
-    width: 100%;
     padding-left: 35px;
     height: 35px;
     outline: none;
     border: none;
     border-radius: 5px;
+  }
+
+  .bi.bi-person:hover {
+    color: gray;
+    transform: none;
+    cursor: unset;
+  }
+
+  .bi.bi-envelope {
+    font-size: 22px;
+    margin-top: 3px;
   }
 
   .campo {
@@ -128,7 +137,7 @@
 
   .terms input[type="checkbox"] {
     accent-color: #b06775;
-    margin-top: 6px;
+    margin-top: 26px;
     width: unset;
     position: relative;
     bottom: 10px;

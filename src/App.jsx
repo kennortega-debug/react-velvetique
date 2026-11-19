@@ -17,8 +17,8 @@ import { TodosLosProductos } from "./mocks/productos";
 import { mockCategorias } from "./mocks/categorias";
 import { mockProductos } from "./mocks/mockProductos";
 
-function App() {
 
+function App() {
   const [carrito, setCarrito] = useState(() => {
     const carritoGuardado = localStorage.getItem('velvetique_carrito');
     return carritoGuardado ? JSON.parse(carritoGuardado) : [];
