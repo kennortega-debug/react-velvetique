@@ -14,6 +14,10 @@ const TextInput = ({
   value,
   onChange,
   minLength,
+  maxLength,
+  min,
+  max,
+  step,
 }) => {
   return (
     <div className="campo">
